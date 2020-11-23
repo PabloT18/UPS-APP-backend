@@ -25,7 +25,22 @@ const generatJWT = (uid) => {
 
 }
 
+const comprarJWT = (token = "") =>{
+    try {
+        
+        const { uid }= jwt.verify(token, process.env.JWT_KEY);
+
+        // req.uid = uid;
+
+        return [true, uid];
+    } catch (error) {
+        return [false, null];
+        
+    }
+
+}
+
 
 module.exports = {
-    generatJWT
+    generatJWT, comprarJWT
 }
