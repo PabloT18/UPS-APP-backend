@@ -4,29 +4,22 @@ require('dotenv').config();
 
 
 
-//DB config
+//DdataBase config
 
-require('./database/config').dbConection();
-
-
-
+// require('./database/config').dbConection();
 
 
 // App de Express
 const app = express();
 
-//configurar la lectutra y parseo de body
+//Configurar de lectutra y parseo del Body (JSON)
 app.use(express.json());
-
-
 
 
 // Node Server
 const server = require('http').createServer(app);
 module.exports.io = require('socket.io')(server);
 require('./sockets/socket');
-
-
 
 
 // Path público
@@ -36,6 +29,10 @@ app.use( express.static( publicPath ) );
 
 
 //Mis rutas
+app.use( '/api/ups', require('./routes/ups_data' ));
+app.use( '/api/loginups', require('./routes/login' ));
+
+
 app.use( '/api/login', require('./routes/auth' ));
 app.use( '/api/usuarios', require('./routes/usuarios' ));
 app.use( '/api/mensajes', require('./routes/mensajes' ));

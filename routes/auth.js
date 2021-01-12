@@ -1,6 +1,5 @@
 /*
     path: api/login
-
 */
 const {Router} = require('express');
 const { check } = require('express-validator');
@@ -17,7 +16,7 @@ router.post('/new', [
     check('password','El password es obligatorio').not().isEmpty(),
     validarCampos
 ], crearUsuario);
-
+ 
 
 //post: / 
 // validar email, paaswword
