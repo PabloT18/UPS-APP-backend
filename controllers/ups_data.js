@@ -8,6 +8,8 @@ const { Noticias } = require("../models/noticias");
 const { Eventos } = require("../models/eventos");
 
 
+
+
 const sedes = async (req, res = response) => {
     try {
         res.json({

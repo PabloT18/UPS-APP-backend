@@ -31,6 +31,7 @@ app.use( express.static( publicPath ) );
 //Mis rutas
 app.use( '/api/ups', require('./routes/ups_data' ));
 app.use( '/api/loginups', require('./routes/login' ));
+app.use( '/api/est/', require('./routes/user_ups' ));
 
 
 app.use( '/api/login', require('./routes/auth' ));
