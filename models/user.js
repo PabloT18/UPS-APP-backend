@@ -5,7 +5,7 @@ const Usuario = ({
         names: "Pablo Andres",
         lastNames: "Torres Peña",
         image: {
-            imagePath: "https://www.ups.edu.ec/documents/10184/11323812/administraci%C3%B3n+de+empresas.png/441b5bf6-2dff-41b3-b2c7-83723b175b14?t=1521757820000",
+            imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=OWTjAc-qf6UAX8fbgWP&_nc_ht=scontent.fcue1-1.fna&oh=91f02b6d245c8245be360f9cac4486eb&oe=604CFFC5",
             imageDescription: "Imagen Estudiante",
         },
         sede: "Cuenca",
