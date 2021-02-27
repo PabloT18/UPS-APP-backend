@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const Usuario = require('../models/user');
+const {Usuario, Usuario2, Usuario3, Usuario4} = require('../models/user');
 const { generatJWT } = require("../helpers/jwr");
 
 
@@ -9,32 +9,37 @@ const login =  async (req, res = response) => {
 
     const {email, password} = req.body;
 
+  let usuarios = [Usuario, Usuario2, Usuario3, Usuario4];
+
+  var numuser = 0;
+
   try {
 
     // const usuarioDB = await Usuario.findOne({email});
     console.log(email);
     console.log(password);
 
-    if(email != 'ptorresp1@est.ups.edu.ec' ){
+    if(email == 'ptorresp1@est.ups.edu.ec' ){
+      numuser = 0;
+    } else if(email == 'ptorresp2@est.ups.edu.ec' ){
+      numuser =1;
 
-        return res.status(404).json({
-            ok: false,
-            msg: "email no encontrado "
-        });
+    }else if(email == 'ptorresp3@est.ups.edu.ec' ){
+      numuser = 2;
+
+    }else if(email == 'aandrade4@est.ups.edu.ec' ){
+      numuser = 3;
     }
 
-    
+    // if(email != 'ptorresp1@est.ups.edu.ec' ){
 
-    //validar pasword
-
-    // const validarPsw = bcrypt.compareSync(password, usuarioDB.password);
-    // if(!validarPsw){
-    //     return res.status(400).json({
+    //     return res.status(404).json({
     //         ok: false,
-    //         msg: "Contrasena no es valida "
+    //         msg: "email no encontrado "
     //     });
     // }
-      
+
+    console.log(usuarios[numuser]);
 
     //generar el JWT
     const token = await generatJWT(email);
@@ -43,7 +48,7 @@ const login =  async (req, res = response) => {
     res.json({
         ok: true,
          
-        data: Usuario,
+        data: usuarios[numuser],
         token: token
     });
 
