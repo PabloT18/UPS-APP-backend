@@ -31,7 +31,7 @@ const login =  async (req, res = response) => {
       numuser = 3;
     }
 
-    // if(email != 'ptorresp1@est.ups.edu.ec' ){
+    // if(ewwwwwwwmail != 'ptorresp1@est.ups.edu.ec' ){
 
     //     return res.status(404).json({
     //         ok: false,

@@ -1,6 +1,7 @@
 const Horarios = [
     {
       class : {
+        id:1,
          asignatura: {
           id: 1,
           code: "4546",
@@ -51,6 +52,7 @@ const Horarios = [
     },
     {
         class : {
+          id:2,
         asignatura: {
         id: 1,
         code: "4547",
@@ -101,6 +103,7 @@ const Horarios = [
    },
    {
     class : {
+      id:3,
     asignatura: {
     id: 1,
     code: "4548",
