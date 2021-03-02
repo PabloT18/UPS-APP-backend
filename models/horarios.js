@@ -90,7 +90,7 @@ const Horarios = [
          endTime: "13:00:00"
        },
        {
-        day: "Miertes",
+        day: "Miercoles",
         startTime: "11:00:00",
         endTime: "13:00:00"
       },
