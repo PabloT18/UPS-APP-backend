@@ -69,7 +69,7 @@ const Usuario3 = ({
     names: "Pablo3 Andres3",
     lastNames: "Torres3 Peña3",
     image: {
-      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=OWTjAc-qf6UAX8fbgWP&_nc_ht=scontent.fcue1-1.fna&oh=91f02b6d245c8245be360f9cac4486eb&oe=604CFFC5",
+      imagePath: "",
       imageDescription: "Imagen Estudiante",
     },
     sede: "Cuenca",
@@ -94,12 +94,45 @@ const Usuario3 = ({
   }
 }
 );
-
 const Usuario4 = ({
   user: {
-    id: "aandrade4",
-    names: "Andres 4",
-    lastNames: "Andrade 4",
+    id: "ptorresp4",
+    names: "Pablo4 Andres4",
+    lastNames: "Torres4 Peña4",
+    image: {
+      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=OWTjAc-qf6UAX8fbgWP&_nc_ht=scontent.fcue1-1.fna&oh=91f02b6d245c8245be360f9cac4486eb&oe=604CFFC5",
+      imageDescription: "Imagen Estudiante",
+    },
+    sede: "Cuenca",
+    campus: "El Vecino",
+    career: "Ingenieria Electricidad",
+    department: " ",
+    emailInstitucional: "ptorresp4@est.ups.edu.ec",
+    rol: "Estudiante"
+  },
+  userData: {
+    dni: "0105772818",
+
+    birthdate: "1995-09-18",
+    bloodType: "ORH+"
+  },
+  userDataContact: {
+    emailPersonal: "pabloa_ec@hotmail.com",
+    phoneNumber1: "098371076",
+    phoneNumber2: "072833543",
+    cellphoneNumber: "098371076",
+    address: "Mariscal Lamar"
+  }
+}
+);
+
+//////////Docentes
+
+const Usuario5 = ({
+  user: {
+    id: "aandrade5",
+    names: "Andres5",
+    lastNames: "Andrade5",
     image: {
       imagePath: "",
       imageDescription: "Imagen Estudiante",
@@ -108,8 +141,72 @@ const Usuario4 = ({
     campus: "El Vecino",
     career: "Ingenieria en Sistemas",
     department: " ",
-    emailInstitucional: "aandrade4@est.ups.edu.ec",
-    rol: "Estudiante"
+    emailInstitucional: "aandrade5@est.ups.edu.ec",
+    rol: "Colaborador"
+  },
+  userData: {
+    dni: "0105772818",
+
+    birthdate: "1995-09-18",
+    bloodType: "ORH+"
+  },
+  userDataContact: {
+    emailPersonal: "pabloa_ec@hotmail.com",
+    phoneNumber1: "098371076",
+    phoneNumber2: "072833543",
+    cellphoneNumber: "098371076",
+    address: "Mariscal Lamar"
+  }
+}
+);
+
+const Usuario7 = ({
+  user: {
+    id: "aandrade7",
+    names: "Andres7",
+    lastNames: "Andrade7",
+    image: {
+      imagePath: "https://cdn3.iconfinder.com/data/icons/education-248/128/4-512.png",
+      imageDescription: "Imagen Usuario",
+    },
+    sede: "Cuenca",
+    campus: "El Vecino",
+    career: "Ingenieria en Sistemas",
+    department: " ",
+    emailInstitucional: "aandrade7@est.ups.edu.ec",
+    rol: "Colaborador"
+  },
+  userData: {
+    dni: "0105772818",
+
+    birthdate: "1995-09-18",
+    bloodType: "ORH+"
+  },
+  userDataContact: {
+    emailPersonal: "pabloa_ec@hotmail.com",
+    phoneNumber1: "098371076",
+    phoneNumber2: "072833543",
+    cellphoneNumber: "098371076",
+    address: "Mariscal Lamar"
+  }
+}
+);
+
+const Usuario6 = ({
+  user: {
+    id: "aandrade6",
+    names: "Andres6",
+    lastNames: "Andrade6",
+    image: {
+      imagePath: "https://cdn3.iconfinder.com/data/icons/education-248/128/4-512.png",
+      imageDescription: "Imagen Usuario",
+    },
+    sede: "Cuenca",
+    campus: "El Vecino",
+    career: "Ingenieria en Sistemas",
+    department: " ",
+    emailInstitucional: "aandrade6@est.ups.edu.ec",
+    rol: "Colaborador"
   },
   userData: {
     dni: "0105772818",
@@ -135,4 +232,5 @@ module.exports = {
   Usuario2,
   Usuario3,
   Usuario4,
+  Usuario5, Usuario6, Usuario7,
 }

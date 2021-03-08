@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const { Horarios } = require('../models/horarios');
+const { Horario1 } = require('../models/horarios');
 
 const { Calificaciones } = require('../models/calificaciones');
 
@@ -23,7 +23,7 @@ const schedule = async (req, res = response) => {
         if (email == 'ptorresp1@est.ups.edu.ec') {
             res.json({
                 ok: true,
-                Horarios
+                Horario1
             });
         } else {
             res.status(400).json({

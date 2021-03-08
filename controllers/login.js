@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const {Usuario, Usuario2, Usuario3, Usuario4} = require('../models/user');
+const {Usuario, Usuario2, Usuario3, Usuario4, Usuario5, Usuario6, Usuario7} = require('../models/user');
 const { generatJWT } = require("../helpers/jwr");
 
 
@@ -9,7 +9,7 @@ const login =  async (req, res = response) => {
 
     const {email, password} = req.body;
 
-  let usuarios = [Usuario, Usuario2, Usuario3, Usuario4];
+  let usuarios = [Usuario, Usuario2, Usuario3, Usuario4, Usuario5, Usuario6, Usuario7];
 
   var numuser = 0;
 
@@ -27,8 +27,15 @@ const login =  async (req, res = response) => {
     }else if(email == 'ptorresp3@est.ups.edu.ec' ){
       numuser = 2;
 
-    }else if(email == 'aandrade4@est.ups.edu.ec' ){
+    }else if(email == 'ptorresp4@est.ups.edu.ec' ){
       numuser = 3;
+
+    }else if(email == 'aandrade5@est.ups.edu.ec' ){
+      numuser = 4;
+    }else if(email == 'aandrade6@est.ups.edu.ec' ){
+      numuser = 5;
+    }else if(email == 'aandrade7@est.ups.edu.ec' ){
+      numuser = 6;
     }
 
     // if(ewwwwwwwmail != 'ptorresp1@est.ups.edu.ec' ){
