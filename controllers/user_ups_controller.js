@@ -23,7 +23,7 @@ const schedule = async (req, res = response) => {
         if (email == 'ptorresp1@est.ups.edu.ec') {
             res.json({
                 ok: true,
-                Horario1
+                Horarios:Horario
             });
         } else {
             res.status(400).json({
