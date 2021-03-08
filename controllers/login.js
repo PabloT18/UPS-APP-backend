@@ -36,14 +36,17 @@ const login =  async (req, res = response) => {
       numuser = 5;
     }else if(email == 'aandrade7@est.ups.edu.ec' ){
       numuser = 6;
+    }else {
+
+          return res.status(404).json({
+              ok: false,
+              msg: "email no encontrado "
+          });
+
     }
 
     // if(ewwwwwwwmail != 'ptorresp1@est.ups.edu.ec' ){
 
-    //     return res.status(404).json({
-    //         ok: false,
-    //         msg: "email no encontrado "
-    //     });
     // }
 
     console.log(usuarios[numuser]);
