@@ -69,7 +69,7 @@ const Usuario3 = ({
     names: "Pablo3 Andres3",
     lastNames: "Torres3 Peña3",
     image: {
-      imagePath: "",
+      imagePath: "no-image",
       imageDescription: "Imagen Estudiante",
     },
     sede: "Cuenca",
