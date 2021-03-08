@@ -40,7 +40,7 @@ const login =  async (req, res = response) => {
 
           return res.status(404).json({
               ok: false,
-              msg: "email no encontrado "
+              msg: "Credenciales incorrectas "
           });
 
     }
