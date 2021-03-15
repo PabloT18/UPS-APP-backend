@@ -5,7 +5,7 @@ const Usuario = ({
     names: "Pablo Andres",
     lastNames: "Torres Peña",
     image: {
-      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=OWTjAc-qf6UAX8fbgWP&_nc_ht=scontent.fcue1-1.fna&oh=91f02b6d245c8245be360f9cac4486eb&oe=604CFFC5",
+      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=c9WmEu4oB9YAX-kfYRO&_nc_ht=scontent.fcue1-1.fna&oh=caa41998e63144d844b4b4c95efc7987&oe=60748CC5",
       imageDescription: "Imagen Estudiante",
     },
     sede: "Cuenca",
@@ -37,7 +37,7 @@ const Usuario2 = ({
     names: "Pablo2 Andres2",
     lastNames: "Torres2 Peña2",
     image: {
-      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=OWTjAc-qf6UAX8fbgWP&_nc_ht=scontent.fcue1-1.fna&oh=91f02b6d245c8245be360f9cac4486eb&oe=604CFFC5",
+      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=c9WmEu4oB9YAX-kfYRO&_nc_ht=scontent.fcue1-1.fna&oh=caa41998e63144d844b4b4c95efc7987&oe=60748CC5",
       imageDescription: "Imagen Estudiante",
     },
     sede: "Cuenca",
@@ -100,7 +100,7 @@ const Usuario4 = ({
     names: "Pablo4 Andres4",
     lastNames: "Torres4 Peña4",
     image: {
-      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=OWTjAc-qf6UAX8fbgWP&_nc_ht=scontent.fcue1-1.fna&oh=91f02b6d245c8245be360f9cac4486eb&oe=604CFFC5",
+      imagePath: "https://scontent.fcue1-1.fna.fbcdn.net/v/t1.0-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=c9WmEu4oB9YAX-kfYRO&_nc_ht=scontent.fcue1-1.fna&oh=caa41998e63144d844b4b4c95efc7987&oe=60748CC5",
       imageDescription: "Imagen Estudiante",
     },
     sede: "Cuenca",
