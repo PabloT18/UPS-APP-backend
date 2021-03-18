@@ -20,17 +20,17 @@ const schedule = async (req, res = response) => {
 
     try {
         console.log(email);
-        if (email == 'ptorresp1@est.ups.edu.ec') {
+        // if (email == 'ptorresp1@est.ups.edu.ec') {
             res.json({
                 ok: true,
                 Horarios:Horario1
             });
-        } else {
-            res.status(400).json({
-                ok: false,
-                msg: "Hable con el administrador",
-            });
-        }
+        // } else {
+            // res.status(400).json({
+            //     ok: false,
+            //     msg: "Hable con el administrador",
+            // });
+        // }
 
     } catch (error) {
         res.status(400).json({
