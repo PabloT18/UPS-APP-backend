@@ -117,17 +117,22 @@ const clases = async (req, res = response) => {
     const  email  = req.query.email;
     try {
         console.log(email);
-        if (email == 'ptorresp1@est.ups.edu.ec') {
-            res.json({
-                ok: true,
-                Clases
-            });
-        } else {
-            res.status(400).json({
-                ok: false,
-                msg: "Hable con el administrador",
-            });
-        }
+        // if (email == 'ptorresp1@est.ups.edu.ec') {
+        //     res.json({
+        //         ok: true,
+        //         Clases
+        //     });
+        // } else {
+        //     res.status(400).json({
+        //         ok: false,
+        //         msg: "Hable con el administrador",
+        //     });
+        // }
+
+        res.json({
+                    ok: true,
+                    Clases
+                });
 
     } catch (error) {
         res.status(400).json({
