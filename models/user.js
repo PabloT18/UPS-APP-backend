@@ -141,7 +141,7 @@ const Usuario5 = ({
     campus: "El Vecino",
     career: "Ingenieria en Sistemas",
     department: " ",
-    emailInstitucional: "aandrade5@est.ups.edu.ec",
+    emailInstitucional: "aandrade5@ups.edu.ec",
     rol: "Colaborador"
   },
   userData: {
@@ -173,7 +173,7 @@ const Usuario7 = ({
     campus: "El Vecino",
     career: "Ingenieria en Sistemas",
     department: " ",
-    emailInstitucional: "aandrade7@est.ups.edu.ec",
+    emailInstitucional: "aandrade7@ups.edu.ec",
     rol: "Colaborador"
   },
   userData: {
@@ -205,7 +205,7 @@ const Usuario6 = ({
     campus: "El Vecino",
     career: "Ingenieria en Sistemas",
     department: " ",
-    emailInstitucional: "aandrade6@est.ups.edu.ec",
+    emailInstitucional: "aandrade6@ups.edu.ec",
     rol: "Colaborador"
   },
   userData: {

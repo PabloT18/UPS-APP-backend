@@ -30,11 +30,11 @@ const login =  async (req, res = response) => {
     }else if(email == 'ptorresp4@est.ups.edu.ec' ){
       numuser = 3;
 
-    }else if(email == 'aandrade5@est.ups.edu.ec' ){
+    }else if(email == 'aandrade5@ups.edu.ec' ){
       numuser = 4;
-    }else if(email == 'aandrade6@est.ups.edu.ec' ){
+    }else if(email == 'aandrade6@ups.edu.ec' ){
       numuser = 5;
-    }else if(email == 'aandrade7@est.ups.edu.ec' ){
+    }else if(email == 'aandrade7@ups.edu.ec' ){
       numuser = 6;
     }else {
 
