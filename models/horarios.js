@@ -121,20 +121,57 @@ const Programacion2 = {
 const Telematica = {
   class: Clase3,
   teachers: [
-    Usuario5.user,
-    Usuario6.user
+    Usuario6.user,
+    Usuario7.user
   ],
   classday: Clase3Days
 };
 
 const Horario1 = [
-
   Programacion,
-
   Programacion2,
   Telematica,
 ];
-module.exports = { Horario1 }
+
+const Horario2 = [
+  Programacion,
+  Programacion2,
+  Telematica,
+];
+
+const Horario3 = [
+  Programacion2,
+  Telematica,
+];
+
+
+const Horario4 = [
+  Telematica,
+];
+
+const Horario5 = [
+  Programacion
+];
+
+const Horario6 = [
+  Programacion2,
+  Telematica,
+];
+
+const Horario7 = [
+  Telematica,
+];
+
+
+module.exports = {
+  Horario1,
+  Horario2,
+  Horario3,
+  Horario4,
+  Horario5,
+  Horario6,
+  Horario7
+}
 
 
 // const Horarios = [
