@@ -10,7 +10,7 @@ const Usuario = ({
     },
     sede: "Cuenca",
     campus: "El Vecino",
-    career: "Ingenieria en Sistemas",
+    career: "5",
     department: " ",
     emailInstitucional: "ptorresp1@est.ups.edu.ec",
     rol: "Estudiante"
@@ -42,7 +42,7 @@ const Usuario2 = ({
     },
     sede: "Cuenca",
     campus: "El Vecino",
-    career: "Ingenieria en Sistemas",
+    career: "5",
     department: " ",
     emailInstitucional: "ptorresp2@est.ups.edu.ec",
     rol: "Estudiante"
@@ -74,7 +74,7 @@ const Usuario3 = ({
     },
     sede: "Cuenca",
     campus: "El Vecino",
-    career: "Ingenieria en Sistemas",
+    career: "5",
     department: " ",
     emailInstitucional: "ptorresp3@est.ups.edu.ec",
     rol: "Estudiante"
@@ -139,7 +139,7 @@ const Usuario5 = ({
     },
     sede: "Cuenca",
     campus: "El Vecino",
-    career: "Ingenieria en Sistemas",
+    career: "5",
     department: " ",
     emailInstitucional: "aandrade5@ups.edu.ec",
     rol: "Colaborador"
@@ -171,7 +171,7 @@ const Usuario7 = ({
     },
     sede: "Cuenca",
     campus: "El Vecino",
-    career: "Ingenieria en Sistemas",
+    career: "5",
     department: " ",
     emailInstitucional: "aandrade7@ups.edu.ec",
     rol: "Colaborador"
@@ -203,7 +203,7 @@ const Usuario6 = ({
     },
     sede: "Cuenca",
     campus: "El Vecino",
-    career: "Ingenieria en Sistemas",
+    career: "5",
     department: " ",
     emailInstitucional: "aandrade6@ups.edu.ec",
     rol: "Colaborador"
