@@ -9,7 +9,7 @@ const { Solicitudes } = require("../models/solicitudes");
 const { RecordAcademico } = require("../models/recordAcademico");
 const { Clases } = require("../models/clases");
 const { Pagos } = require("../models/pagos");
-const { Deudas } = require("../models/deudas");
+const { Deudas } = require("../models/deudas"); 
 
 
 const schedule = async (req, res = response) => {
@@ -55,7 +55,7 @@ const schedule = async (req, res = response) => {
   
       }
 
-      console.log(Horarios[numuser]);
+    //   console.log(Horarios[numuser]);
 
         // if (email == 'ptorresp1@est.ups.edu.ec') {
             res.json({
