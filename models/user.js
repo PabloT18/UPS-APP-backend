@@ -105,7 +105,7 @@ const Usuario4 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: "Ingenieria Electricidad",
+    career: 6,
     department: " ",
     emailInstitucional: "ptorresp4@est.ups.edu.ec",
     rol: "Estudiante"
@@ -171,7 +171,7 @@ const Usuario7 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 5,
+    career: 6,
     department: " ",
     emailInstitucional: "aandrade7@ups.edu.ec",
     rol: "Colaborador"

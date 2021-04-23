@@ -53,8 +53,8 @@ const Sedes = ([
         },
         {
             id: 5,
-            name: "Computacion",
-            malla: "MN",
+            name: "Ingenieria en sistemas",
+            malla: "MA",
             category: "Cienca y tegnologia",
             image: {
                 "imagePath": "https://www.ups.edu.ec/documents/10184/12454774/Biomedicina.JPG/6f4906b6-cbd0-4e25-8af4-b399cad2c229?t=1561410120000",
@@ -63,8 +63,8 @@ const Sedes = ([
         },
         {
             id: 6,
-            name: "Computacion",
-            malla: "MN",
+            name: "Ingenieria Electrica",
+            malla: "MA",
             category: "Cienca y tegnologia",
             image: {
                 "imagePath": "https://www.ups.edu.ec/documents/10184/12454774/Biomedicina.JPG/6f4906b6-cbd0-4e25-8af4-b399cad2c229?t=1561410120000",
