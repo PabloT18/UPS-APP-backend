@@ -37,7 +37,7 @@ const Clase1Days = [
 const Clase2 = {
   id: 2,
   asignatura: {
-    id: 1,
+    id: 2,
     code: "4547",
     name: "Programacion II",
     type: "Académica"
@@ -71,7 +71,7 @@ const Clase2Days = [
 const Clase3 = {
   id: 3,
   asignatura: {
-    id: 1,
+    id: 3,
     code: "4548",
     name: "Telematica",
     type: "Académica"
