@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const {Usuario, Usuario2, Usuario3, Usuario4, Usuario5, Usuario6, Usuario7} = require('../models/user');
+const {Usuario, Usuario2, Usuario3, Usuario4, Usuario5, Usuario6, Usuario7, UsuarioDef} = require('../models/user');
 const { generatJWT } = require("../helpers/jwr");
 
 
@@ -9,7 +9,7 @@ const login =  async (req, res = response) => {
 
     const {email, password} = req.body;
 
-  let usuarios = [Usuario, Usuario2, Usuario3, Usuario4, Usuario5, Usuario6, Usuario7];
+  let usuarios = [Usuario, Usuario2, Usuario3, Usuario4, Usuario5, Usuario6, Usuario7, UsuarioDef,];
 
   var numuser = 0;
 
@@ -38,10 +38,11 @@ const login =  async (req, res = response) => {
       numuser = 6;
     }else {
 
-          return res.status(404).json({
-              ok: false,
-              msg: "Credenciales incorrectas "
-          });
+          // return res.status(404).json({
+          //     ok: false,
+          //     msg: "Credenciales incorrectas "
+          // });
+          numuser = 7;
 
     }
 

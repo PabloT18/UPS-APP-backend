@@ -224,6 +224,37 @@ const Usuario6 = ({
 }
 );
 
+const UsuarioDef = ({
+  user: {
+    id: "default",
+    names: "User",
+    lastNames: "User",
+    image: {
+      imagePath: "https://cdn3.iconfinder.com/data/icons/education-248/128/4-512.png",
+      imageDescription: "Imagen Usuario",
+    },
+    sede: 1,
+    campus: "El Vecino",
+    career: 5,
+    department: " ",
+    emailInstitucional: "aandrade6@ups.edu.ec",
+    rol: "Colaborador"
+  },
+  userData: {
+    dni: "0105772818",
+    birthdate: "1995-09-18",
+    bloodType: "ORH+"
+  },
+  userDataContact: {
+    emailPersonal: "pabloa_ec@hotmail.com",
+    phoneNumber1: "098371076",
+    phoneNumber2: "072833543",
+    cellphoneNumber: "098371076",
+    address: "Mariscal Lamar"
+  }
+}
+);
+
 
 
 
@@ -232,5 +263,5 @@ module.exports = {
   Usuario2,
   Usuario3,
   Usuario4,
-  Usuario5, Usuario6, Usuario7,
+  Usuario5, Usuario6, Usuario7, UsuarioDef,
 }
