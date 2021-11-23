@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const { Horario1, Horario2, Horario3, Horario4, Horario5, Horario6, Horario7 } = require('../models/horarios');
+const { Horario1, Horario2, Horario3, Horario4, Horario5, Horario6, Horario7, HorarioDef } = require('../models/horarios');
 
 const { Calificaciones } = require('../models/calificaciones');
 
@@ -19,7 +19,7 @@ const schedule = async (req, res = response) => {
 // periodo
     // const  email  = req.query.email;
 
-    let Horarios = [Horario1, Horario2, Horario3, Horario4, Horario5, Horario6, Horario7];
+    let Horarios = [Horario1, Horario2, Horario3, Horario4, Horario5, Horario6, Horario7, HorarioDef];
 
   var numuser = 0;
 
@@ -47,11 +47,11 @@ const schedule = async (req, res = response) => {
       }else if(email == 'aandrade7@ups.edu.ec' ){
         numuser = 6;
       }else {
-  
-            return res.status(404).json({
-                ok: false,
-                msg: "Credenciales incorrectas "
-            });
+  numuser =7;
+            // return res.status(404).json({
+            //     ok: false,
+            //     msg: "Credenciales incorrectas "
+            // });
   
       }
 

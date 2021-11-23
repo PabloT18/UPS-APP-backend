@@ -162,6 +162,11 @@ const Horario7 = [
   Telematica,
 ];
 
+const HorarioDef = [
+  Programacion2,
+  Telematica,
+];
+
 
 module.exports = {
   Horario1,
@@ -170,7 +175,8 @@ module.exports = {
   Horario4,
   Horario5,
   Horario6,
-  Horario7
+  Horario7,
+  HorarioDef
 }
 
 
