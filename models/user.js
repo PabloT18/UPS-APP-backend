@@ -206,7 +206,7 @@ const Usuario6 = ({
     career: 5,
     department: " ",
     emailInstitucional: "aandrade6@ups.edu.ec",
-    rol: "Colaborador"
+    rol: "DIRECTOR DE CARRERA"
   },
   userData: {
     dni: "0105772818",
