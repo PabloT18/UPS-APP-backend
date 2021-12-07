@@ -10,7 +10,7 @@ const Usuario = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 5,
+    career: 88,
     department: " ",
     emailInstitucional: "ptorresp1@est.ups.edu.ec",
     rol: "Estudiante"
@@ -42,7 +42,7 @@ const Usuario2 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 5,
+    career: 88,
     department: " ",
     emailInstitucional: "ptorresp2@est.ups.edu.ec",
     rol: "Estudiante"
@@ -74,7 +74,7 @@ const Usuario3 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 5,
+    career: 88,
     department: " ",
     emailInstitucional: "ptorresp3@est.ups.edu.ec",
     rol: "Estudiante"
@@ -105,7 +105,7 @@ const Usuario4 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 6,
+    career: 88,
     department: " ",
     emailInstitucional: "ptorresp4@est.ups.edu.ec",
     rol: "Estudiante"
@@ -139,7 +139,7 @@ const Usuario5 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 5,
+    career: 88,
     department: " ",
     emailInstitucional: "aandrade5@ups.edu.ec",
     rol: "Colaborador"
@@ -171,7 +171,7 @@ const Usuario7 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 6,
+    career: 89,
     department: " ",
     emailInstitucional: "aandrade7@ups.edu.ec",
     rol: "Colaborador"
@@ -203,7 +203,7 @@ const Usuario6 = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 5,
+    career: 88,
     department: " ",
     emailInstitucional: "aandrade6@ups.edu.ec",
     rol: "DIRECTOR DE CARRERA"
@@ -235,7 +235,7 @@ const UsuarioDef = ({
     },
     sede: 1,
     campus: "El Vecino",
-    career: 5,
+    career: 88,
     department: " ",
     emailInstitucional: "aandrade6@ups.edu.ec",
     rol: "Colaborador"
