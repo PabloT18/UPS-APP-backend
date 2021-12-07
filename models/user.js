@@ -5,7 +5,7 @@ const Usuario = ({
     names: "Pablo Andres",
     lastNames: "Torres Peña",
     image: {
-      imagePath: "https://lh3.googleusercontent.com/8MQrwYzFe2HhcDe0rOuBFBrIda4t1lmF881YWSZft8w1Zb94osxo5JDbp3-sPbiGEUsZpBQwaL8h9P9Cxz3h3AXWP1zZVtQg78jQXhWNnwhOMib0_M8Icx11NEQotUHWYa0Dj0INOtUntp4gGs6fHLkbsOajz7w6Y913Oyv3j0vsWv5-6BSFIXnQqhP-fYVPc1cFBCSVH27xPI37v94apPDu0wdh8-LyWY5Q8V48guMKvm2Ib3nGce0JoJk92dhGitj8jwYmVjPHvzcYGV8Kt66NU2bA_McaSmWIRXRaY4KgucpN5_n7bcKjULA-sF8Q0OrKNmx9U_TQ-M52mXpTQEwAZYqIRA4yjqt3YtAvfMmLP1ikfqAcdj-924BD5_lxGoZQQvO9GXM-TgtR8Ys7NIdKqKGatWgS5NbEDDPQygg1SqRwb755ekdgoXOZBTLo2iemUXcorgeO2hTZXLMvWPGsqxTEau1O_-EsDmQHWiBL-Kpn3L3lX3lWK7MMTeEyJCHBINnNZDH5wRH_dpnxXvnIxagM5ET0F6h4bNbxl72JjLeyp4VcxhsK7LmylouQFmyOSkWn3A3mKITc5CfXQ955dIGcqRnN_DhuOuOhiXB5nZ2TtlogO2FOHei_kmcCjdDygOXa54I-2P5p33a03YxfH32FTGHA9K0SEaUbXEaqIBsB6s3J5aH2TKDMg2ybOlfpgeH51Awoi8esHj4fyNzb=s801-no?authuser=0",
+      imagePath: "https://scontent.fuio6-2.fna.fbcdn.net/v/t1.6435-9/69379197_10215008198104644_6564861562090160128_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeG1tUjUeymx_t6H9KaPUumQStsoyZmFNlRK2yjJmYU2VEBPgEBpUd7ERUoRkaGt4hc&_nc_ohc=e2_f6z5WshoAX_0MTtL&_nc_ht=scontent.fuio6-2.fna&oh=91fd91033b7998aae77b6aae697fb2de&oe=61D4A1A8",
       imageDescription: "Imagen Estudiante",
     },
     sede: 1,
